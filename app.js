@@ -78,7 +78,7 @@ function find() {
   if (userInput != "") {
     var requriedBox = document.getElementsByClassName(userInput)[0];
     var previousBox = requriedBox.classList.contains("setColor");
-
+    console.log(requriedBox);
     if (previousBox) {
       requriedBox.classList.remove("setColor");
     } else {
